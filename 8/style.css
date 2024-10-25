@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid black;
+    cursor: default; /* Обычный курсор */
+    margin-top: 20px;
+}
+
+.controls {
+    margin-bottom: 10px;
+}

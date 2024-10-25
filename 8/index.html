@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини графический редактор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <label>
+            <input type="radio" name="shape" value="circle" checked> Круг
+        </label>
+        <label>
+            <input type="radio" name="shape" value="rectangle"> Прямоугольник
+        </label>
+        <input type="color" id="colorPicker" value="#000000">
+        <button id="clearBtn">Очистить</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
